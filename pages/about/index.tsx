@@ -12,7 +12,7 @@ export default function AboutPage(props: AboutPageProps) {
       <h1>About pages</h1>
       <ul>
         {props.posts.map((post) => (
-          <li key={post.id}>
+          <li>
             <Link href={`/posts/${post.id}`}>
               <a>{post.title}</a>
             </Link>

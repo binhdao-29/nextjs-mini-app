@@ -7,6 +7,9 @@ export interface PostPageProps {
 }
 
 export default function PostPage(props: PostPageProps) {
+
+  console.log('posts', props.posts);
+
   return (
     <div>
       <h1>Post pages</h1>
